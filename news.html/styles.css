@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+}
+h1 {
+    text-align: center;
+    background-color: blue;
+}
+.header h1 {
+    justify-content: center;
+}

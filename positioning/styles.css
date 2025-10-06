@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --paid-color: #abcd23;
+    --to-color: #8a7a2a;
+    --exist-color: #c3c4c5;
+    --div: #0a0b0a;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+    margin: 3px 7px;
+    background-color: var(--div);
+    scroll: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bxn {
+    width: 800px;
+    height: 600px;
+}
+.paid{
+    position:absolute;
+    z-index: ;
+    width: 455px;
+    height: 300px;
+    background-color: var(--paid-color);
+}
+.to {
+    width: 400px;
+    height: 355px;
+    background-color: var(--to-color);
+}
+.exist{
+    width: 200px;
+    height: 677px;
+    background-color: var(--exist-color);
+}
